@@ -1,0 +1,23 @@
+{
+  "name": "codementor-nestjs-enterprise-hireable-demo",
+  "version": "1.0.0",
+  "description": "Small Nest-style TypeScript/Node demo: layered modules, DTO validation, REST — enterprise hireability patterns for Codementor mentoring",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts",
+    "start:prod": "node dist/main.js"
+  },
+  "keywords": ["nestjs", "typescript", "nodejs", "enterprise", "codementor", "mentoring"],
+  "author": "Mihai Chindriș",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
